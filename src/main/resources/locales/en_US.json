@@ -1,0 +1,9 @@
+{
+  "label" : "Credential Manager",
+  "description" : "Access Credential Vault values anywhere within your bot",
+  "ReadCredential.label" : "Read Credential",
+  "ReadCredential.node_label": "Read Credential",
+  "ReadCredential.description" : "Read Credential from Vault",
+  "ReadCredential.return_label" : "Returned Credential Vault Value",
+  "ReadCredential.CMInput.label" : "Credential to Read from Vault"
+}

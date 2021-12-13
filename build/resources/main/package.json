@@ -1,0 +1,38 @@
+{
+    "name": "Credential Manager",
+    "label": "[[label]]",
+    "description": "[[description]]",
+    "group": "com.automationanywhere",
+    "artifactName": "CredentialManager",
+    "packageVersion": "2.3.0-20211213-125708",
+    "codeVersion": "2.3.0-20211213-125708",
+    "author": "",
+    "commands": [
+        {
+            "name": "ReadCredential",
+            "label": "[[ReadCredential.label]]",
+            "description": "[[ReadCredential.description]]",
+            "nodeLabel": "[[ReadCredential.node_label]]",
+            "minimumControlRoomVersion": "8750",
+            "minimumBotAgentVersion": "20.11",
+            "mainClass": "com.automationanywhere.botcommand.ReadCredentialCommand",
+            "icon": "safe_icon.svg",
+            "returnType": "STRING",
+            "returnSubtype": "UNDEFINED",
+            "returnLabel": "[[ReadCredential.return_label]]",
+            "returnRequired": true,
+            "attributes": [
+                {
+                    "name": "CMInput",
+                    "label": "[[ReadCredential.CMInput.label]]",
+                    "type": "CREDENTIAL",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
